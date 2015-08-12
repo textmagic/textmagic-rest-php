@@ -1,0 +1,23 @@
+{
+    "name": "textmagic/sdk",
+    "type": "library",
+    "description": "A PHP wrapper for Textmagic API",
+    "keywords": ["textmagic", "sms", "api"],
+    "homepage": "http://github.com/textmagic/textmagic-rest-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis",
+            "email": "denis@textmagic.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*"
+    },
+    "autoload": {
+        "files": ["Services/TextmagicRestClient.php"]
+    }
+}

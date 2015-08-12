@@ -1,0 +1,7 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="Services Textmagic Test Suite">
+      <directory>./</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
